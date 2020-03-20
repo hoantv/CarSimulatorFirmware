@@ -1,0 +1,13 @@
+usbd_customhid.c:347:16:USBD_CUSTOM_HID_Init	24	static
+usbd_customhid.c:403:16:USBD_CUSTOM_HID_DeInit	16	static
+usbd_customhid.c:435:16:USBD_CUSTOM_HID_Setup	48	static
+usbd_customhid.c:575:9:USBD_CUSTOM_HID_SendReport	32	static
+usbd_customhid.c:609:17:USBD_CUSTOM_HID_GetFSCfgDesc	16	static
+usbd_customhid.c:623:17:USBD_CUSTOM_HID_GetHSCfgDesc	16	static
+usbd_customhid.c:637:17:USBD_CUSTOM_HID_GetOtherSpeedCfgDesc	16	static
+usbd_customhid.c:651:16:USBD_CUSTOM_HID_DataIn	16	static
+usbd_customhid.c:669:16:USBD_CUSTOM_HID_DataOut	24	static
+usbd_customhid.c:695:9:USBD_CUSTOM_HID_ReceivePacket	24	static
+usbd_customhid.c:720:16:USBD_CUSTOM_HID_EP0_RxReady	24	static
+usbd_customhid.c:739:17:USBD_CUSTOM_HID_GetDeviceQualifierDesc	16	static
+usbd_customhid.c:752:9:USBD_CUSTOM_HID_RegisterInterface	16	static

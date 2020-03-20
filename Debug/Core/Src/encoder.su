@@ -1,0 +1,7 @@
+encoder.cpp:16:1:Encoder::Encoder()	16	static
+encoder.cpp:20:1:Encoder::~Encoder()	16	static
+encoder.cpp:23:6:void Encoder::Encoder_Init()	16	static
+encoder.cpp:27:11:uint16_t Encoder::Encoder_Read()	24	static
+encoder.cpp:32:16:Encoder_Status Encoder::Encoder_Get_Status()	16	static
+encoder.cpp:46:6:void Encoder::update()	16	static
+encoder.cpp:64:6:void Encoder::Encoder_Config()	64	static
