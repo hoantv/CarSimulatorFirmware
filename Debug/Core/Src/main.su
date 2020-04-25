@@ -1,9 +1,0 @@
-main.cpp:81:5:int main()	24	static
-main.cpp:147:6:void SystemClock_Config()	88	static
-main.cpp:190:13:void MX_TIM1_Init()	96	static
-main.cpp:273:13:void MX_TIM2_Init()	56	static
-main.cpp:322:13:void MX_GPIO_Init()	56	static
-main.cpp:399:6:void Error_Handler()	4	static
-main.cpp:405:1:void __static_initialization_and_destruction_0(int, int)	16	static
-main.cpp:405:1:cpp)	8	static
-main.cpp:405:1:cpp)	8	static
