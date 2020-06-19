@@ -1,14 +1,14 @@
-# CarSimulatorFirmware
-This is openfirmware ffb for stm32 that supports all(11) effets. 
+# CarSimulatorFirmware 
+# CarSimulatorConfigurator
+CarSimulatorFirmware is one of OpenFirmwares of VNM Simulation. Other Firmware and hardware are in development phase.
+Go to my discord to discuss about the firmware and get newest update of other firmware and hardware: https://discord.gg/NDk4pYd
 
-These firmware is for testing. Currently I haven't made GUI. I hardcode some-
-- Gain total = 30%
-- gain for each effect is 100%.
-- PWM mode is H-Brigde (PE9, PE11)
-- metric for conditional effect (damper, interia, friction)
+This is the test version, that is test by me and some friends in my discord. It works very well until now :). 
+If you used MMOS, The wiring is the same. Read a document in rar file to know how to setup it.
 
-based on your encoder choose correcponding to firmware
+Some it feature:
 
-Please report issuses i will solve them as soon as possible.
+- Support 12 effects and can adjust individually effect gains.
+- Support telemetry ffb (only Assetto corsa at the moment, need time to add other game like ACC, Rally,...)
 
-I will find the way to create GUI and log report from STM32. currently I dont know how to made this :(.
+
