@@ -10,5 +10,6 @@ Some it feature:
 
 - Support 12 effects and can adjust individually effect gains.
 - Support telemetry ffb (only Assetto corsa at the moment, need time to add other game like ACC, Rally,...)
+- It support analog output for Ac servo drive, insteed of PE9, PE11 with external DAC, connect PA4 (~PE9), PA5(~PE11) to the AC Servo driver
 
 
