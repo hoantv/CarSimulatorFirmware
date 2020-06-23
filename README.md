@@ -1,10 +1,10 @@
 # CarSimulatorFirmware 
 # CarSimulatorConfigurator
-CarSimulatorFirmware is one of OpenFirmwares of VNM Simulation. Other Firmware and hardware are in development phase.
+CarSimulatorFirmware is one of OpenFirmwares of VNM Simulation. Other Firmware and hardware are in the development phase.
 Go to my discord to discuss about the firmware and get newest update of other firmware and hardware: https://discord.gg/NDk4pYd
 
-This is the test version, that is test by me and some friends in my discord. It works very well until now :). 
-If you used MMOS, The wiring is the same. Read a document in rar file to know how to setup it.
+This is the test version, It is tested by me and some friends in my discord. It works very well until now :). 
+If you use MMOS, The wiring is the same. Read a document in rar file to know how to setup it.
 
 Some it feature:
 
