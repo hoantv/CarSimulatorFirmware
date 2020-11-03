@@ -1,2 +1,8 @@
-D5D117CB400E3DF0A5726F680EABD2F3382A1DA1
-5FA097F3EDD58C650AE831BAB4F3BB496E0ED3B2
+//
+// File Checksum Integrity Verifier version 2.05.
+//
+093088ac05e225c18bda426c3832606bfc24a57b vnmfirmware.hex
+//
+// File Checksum Integrity Verifier version 2.05.
+//
+5fa097f3edd58c650ae831bab4f3bb496e0ed3b2 vnmwheelconfig.exe
