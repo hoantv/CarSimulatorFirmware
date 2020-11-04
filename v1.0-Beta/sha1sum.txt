@@ -1,7 +1,7 @@
 //
 // File Checksum Integrity Verifier version 2.05.
 //
-ffd811e7e894cbf61d0f755bc6664fe65e819de7 vnmfirmware.hex
+0a1d53f80edcf718accf3462f898ae4fc11d31fe vnmfirmware.hex
 //
 // File Checksum Integrity Verifier version 2.05.
 //
