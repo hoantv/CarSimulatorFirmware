@@ -3,4 +3,4 @@ Debug/**
 Debug
 Release
 .settings
-.log
+*.log
