@@ -1,7 +1,9 @@
 # CarSimulatorFirmware 
 
 CarSimulatorFirmware is the Open firmwares of VNM Simulation. It will have almost firmware for car simulator like wheelbase, pedal, shifter,...
+
 Go to my discord to discuss about the firmwares and hardware: https://discord.gg/NDk4pYd
+
 Or facebook group https://www.facebook.com/groups/2303223886447618/?ref=share
 
 1. Wheelbase features:
