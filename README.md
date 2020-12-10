@@ -1,16 +1,30 @@
 # CarSimulatorFirmware 
-# CarSimulatorConfigurator
-CarSimulatorFirmware is one of Open firmwares of VNM Simulation. Other Firmware and hardware are in the development phase.
-Go to my discord to discuss about the firmware and hardware: https://discord.gg/NDk4pYd
+
+CarSimulatorFirmware is the Open firmwares of VNM Simulation. It will have almost firmware for car simulator like wheelbase, pedal, shifter,...
+
+Go to my discord to discuss about the firmwares and hardware: https://discord.gg/NDk4pYd
+
 Or facebook group https://www.facebook.com/groups/2303223886447618/?ref=share
 
-This is the test version, It is tested by me and some friends in my discord. It works very well until now :). 
-If you use MMOS, The wiring is the same. Read a document in rar file to know how to setup it.
-
-Some it features:
+1. Wheelbase features:
 
 - Support 12 effects and can adjust individually effect gains.
-- Support telemetry ffb (only Assetto corsa at the moment, need time to add other game like ACC, Rally,...)
-- It support analog output for AC servo drive, insteed of PE9, PE11 with external DAC, connect PA4 (~PE9), PA5(~PE11) to the AC Servo driver
+- Support build in DAC (PA4,PA5) ~ PE9,PE11 PWM
+- change FFB frequency upto 4k (it can increase more but i think it is enough, it requires you have a high resolution encoder) the low resolution encoder should use low ffb frequency.
+- configable Filters, user effects.
+
+The feature roadmap for VNM Wheelbase Firmware includes:
+* load cells with high resolution and  frequency
+* 24 bit mutil channel ADC
+* Angle sensors
+* Absolute encoder
+* Configure the servo driver from the GUI
+* Displays configuration in LCD on-device
+* Button for steering wheel, button box, paddles.
 
 
+2. Shifter
+- support hpattern and sequential mode
+- use 2 analog input 
+- Configable Led 
+- support 2 button for truck knob
