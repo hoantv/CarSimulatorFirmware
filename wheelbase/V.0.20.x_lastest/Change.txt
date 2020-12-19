@@ -1,3 +1,11 @@
-Checked biquad same as V.0.19.5
-add reverse ffb
-add steering wheel input 
+V0.21.1.4
+ - Add enableEncoderPosFix
+ - fix pwm
+V0.21.1.3
+ - remove interupt Zindex if not use
+ - add automatic calculate params without calibration (recommend use calibration)
+V0.20.4.1
+ - add composite device
+ - change cabiration function
+V0.20.3.0
+ - fix maxforce and filter
