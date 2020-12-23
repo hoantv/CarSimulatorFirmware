@@ -1,3 +1,9 @@
+23/12/2020 1.3.1.5
+* Fixed: Duplicated device enumeration
+
+23/12/2020 1.3.1.4
++ Added: Delay 3s when saving hardware
+
 22/12/2020 1.3.1.3
 * Fixed: Failure to restart wheelbase because save action takes too long
 
