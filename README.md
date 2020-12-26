@@ -6,19 +6,19 @@ For discussion, please visit: https://discord.gg/NDk4pYd or https://www.facebook
 
 1. Wheelbase features:
 
-- 12 effects and can configurable individual effect gains.
+- 12 effects and configurable individual effect gain.
 - Built in DAC (PA4,PA5) ~ PE9,PE11 PWM
-- FFB frequency upto 4k (it can increase more but i think it is enough, it requires you have a high resolution encoder) the low resolution encoder should use low ffb frequency.
+- FFB frequency upto 4k (can be increased to higher  but a high resolution encoder will be required)
 - Configurable filters, user effects.
 
-The feature roadmap for VNM Wheelbase Firmware includes:
-* load cells with high resolution and  frequency
+The feature roadmap for VNM Wheelbase Firmware:
+* Load cells with high resolution and frequency
 * 24 bit mutil channel ADC
 * Angle sensors
 * Absolute encoder
 * Configure the servo driver from the GUI
-* Displays configuration in LCD on-device
-* Button for steering wheel, button box, paddles.
+* Displays configuration device's LCD
+* Buttons for steering wheel, button box, paddles.
 
 2. Shifter
 - Hpattern and sequential modes supported
@@ -31,7 +31,7 @@ For bug reporting, please fill out the following form with as much details as po
 
 <pre>
 1. Brief description of the issue
-2. What firmware and UI version are you using?
+2. Which firmware and UI version are you using?
 3. Windows version?
 4. Which feature is broken?
 5. Does it occur frequently? (Rarely, sometimes, always, etc.)
