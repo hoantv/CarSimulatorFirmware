@@ -1,3 +1,13 @@
+26/12/2020 1.3.2.1
+* Fixed: GUI adjustments
++ Added: Showing trackbar pos on changed
++ Added: Custom balloon hint class
+
+25/12/2020 1.3.1.6
+* Fixed: Set default profile to 0
++ Added: Hardware save timeout (Default: 5s)
++ Added: Reconnect button on Hardware tab
+
 23/12/2020 1.3.1.5
 * Fixed: Duplicated device enumeration
 
