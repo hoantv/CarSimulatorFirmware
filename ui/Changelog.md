@@ -1,3 +1,17 @@
+28/12/2020 1.3.3.3
+* Fixed: Profile switching not properly handled
+
+27/12/2020 1.3.3.1
+* Fixed: Removed tabcontrol showfocus
++ Added: Menu tab
+* Fixed: Removed Mainmenu bar
+* Fixed: Replaced MainIcon
++ Added: User profile feature
+
+27/12/2020 1.3.2.1
+* Fixed: GUI Adjustments
+* Fixed: Attempted to reduce hint flickering
+
 26/12/2020 1.3.2.1
 * Fixed: GUI adjustments
 + Added: Showing trackbar pos on changed
