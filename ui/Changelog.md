@@ -1,4 +1,6 @@
 01/01/2021 1.4.0.2
++ Added: Auto align controls by code (more pricision)
++ Added: Show device version info based on current tab
 + Added: Single instance check
 * Fixed: Adjusted statusbar icons
 * Fixed: Reconnect function
