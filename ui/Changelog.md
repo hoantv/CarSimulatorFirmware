@@ -1,4 +1,17 @@
+01/01/2021 1.4.0.2
++ Added: Single instance check
+* Fixed: Adjusted statusbar icons
+* Fixed: Reconnect function
+
+31/12/2020 1.4.0.2
++ Added: Logging system with log rotation
+
+29/12/2020 1.4.0.1
++ Added: Notification system
++ Added: Docked log window
+
 28/12/2020 1.3.3.3
+* Fixed: Removed themes folder (embedded resources)
 * Fixed: Profile switching not properly handled
 
 27/12/2020 1.3.3.1
