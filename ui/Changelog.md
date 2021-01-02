@@ -1,5 +1,9 @@
+01/01/2021 1.4.0.3
+* Fixed: Updated themes
+* Fixed: Replaced light skin
+
 01/01/2021 1.4.0.2
-+ Added: Auto align controls by code (more pricision)
++ Added: Auto align controls by code (more precision)
 + Added: Show device version info based on current tab
 + Added: Single instance check
 * Fixed: Adjusted statusbar icons
