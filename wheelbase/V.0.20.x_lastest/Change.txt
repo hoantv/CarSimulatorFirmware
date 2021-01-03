@@ -1,3 +1,6 @@
+todo: add button
+V0.22.0.0
+ - Add analogs for pedal PC0,1,2,3
 V0.21.5.x
  - Fix filter 4 lost ffb with Race Room
 V0.21.4.x (old filter is stable)
