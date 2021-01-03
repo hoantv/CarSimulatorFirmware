@@ -1,3 +1,8 @@
+02/01/2021 1.4.0.4
++ Added: Build date to log and about form
+* Fixed: Optimized UI control alignment
+* Fixed: Light skin issue
+
 01/01/2021 1.4.0.3
 * Fixed: Updated themes
 * Fixed: Replaced light skin
