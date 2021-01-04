@@ -1,0 +1,7 @@
+#message={Test update}
+
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v1.4.0.4/VNMWheelConfig.exe
+
+#method=0 (self-upgrade)
+
+#version=1.4.0.5
