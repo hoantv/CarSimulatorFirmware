@@ -1,3 +1,11 @@
+05/01/2021 1.4.0.6
++ Added: Check for update option
+* Fixed: Optimized update feature
+
+03/01/2021 1.4.0.5
++ Added: UI update check feature
+* Fixed: Hotkeys not working
+
 02/01/2021 1.4.0.4
 + Added: Build date to log and about form
 * Fixed: Optimized UI control alignment
