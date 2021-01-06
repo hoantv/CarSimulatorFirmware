@@ -1,6 +1,9 @@
-todo: add button
+todo: shifter
+V0.23.1.0
+ - Add matrix 5*5
+ - Add ffb bar show clipping and ffb strength
 V0.22.0.0
- - Add analogs for pedal PC0,1,2,3
+ - Add analogs for pedal, handbrake PC0,1,2,3
 V0.21.5.x
  - Fix filter 4 lost ffb with Race Room
 V0.21.4.x (old filter is stable)
