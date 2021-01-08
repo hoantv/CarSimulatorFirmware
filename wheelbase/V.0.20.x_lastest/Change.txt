@@ -1,4 +1,6 @@
 todo: shifter
+V0.23.2.0
+ - add auto centering
 V0.23.1.0
  - Add matrix 5*5
  - Add ffb bar show clipping and ffb strength
