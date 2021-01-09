@@ -1,4 +1,4 @@
-#message={}
+#message={1.4.0.7}
 
 #url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v1.4.0.7/VNMWheelConfig.exe
 
