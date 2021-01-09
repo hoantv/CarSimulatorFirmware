@@ -1,3 +1,6 @@
+09/01/2021 1.4.0.7
++ Added: Joystick axis enable/disable feature
+
 05/01/2021 1.4.0.6
 + Added: Check for update option
 * Fixed: Optimized update feature
