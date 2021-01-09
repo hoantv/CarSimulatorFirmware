@@ -1,3 +1,7 @@
+09/01/2021 1.4.0.8
+* Fixed: Upgrade feature optimized
++ Added: VNMUpdater binary
+
 09/01/2021 1.4.0.7
 + Added: Joystick axis enable/disable feature
 
