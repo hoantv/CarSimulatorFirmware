@@ -1,7 +1,7 @@
-#message={1.4.0.8}
+#message={1.4.0.9}
 
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v1.4.0.8/VNMWheelConfig.exe
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v1.4.0.9/VNMWheelConfig.exe
 
 #method=0 (self-upgrade)
 
-#version=1.4.0.8
+#version=1.4.0.9
