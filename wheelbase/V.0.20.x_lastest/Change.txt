@@ -1,4 +1,7 @@
 todo: shifter
+V0.23.2.4
+ - modify period = 99.5%
+ - fix overflow timer
 V0.23.2.0
  - add auto centering
 V0.23.1.0
