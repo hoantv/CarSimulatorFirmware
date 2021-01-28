@@ -1,3 +1,15 @@
+28/01/2021 1.4.0.10
++ Added: Log shifter config when saving
++ Added: GUI eventlog
++ Fixed: Some error messages rewritten
+
+18/01/2021 1.4.0.9
+* Fixed: Adjusted info text
+
+09/01/2021 1.4.0.9
+* Fixed: Updated self-upgrade mechanism
+* Fixed: Reduced binary size
+
 09/01/2021 1.4.0.8
 * Fixed: Upgrade feature optimized
 + Added: VNMUpdater binary
