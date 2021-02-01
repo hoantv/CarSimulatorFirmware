@@ -1,3 +1,6 @@
+01/02/2021 1.4.0.11
+* Fixed: Invalid typecast on checkboxes
+
 28/01/2021 1.4.0.10
 + Added: Log shifter config when saving
 + Added: GUI eventlog
