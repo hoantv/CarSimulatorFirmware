@@ -1,3 +1,6 @@
+13/02/2021 1.4.0.12
++ Added: Calibration confirmation dialog
+
 01/02/2021 1.4.0.11
 * Fixed: Invalid typecast on checkboxes
 

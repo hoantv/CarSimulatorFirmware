@@ -1,7 +1,7 @@
-#message={Fixed invalid typecase on checkboxes}
+#message={Added calibration confirmation dialog}
 
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v1.4.0.11/VNMWheelConfig.exe
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v1.4.0.12/VNMWheelConfig.exe
 
 #method=0 (self-upgrade)
 
-#version=1.4.0.11
+#version=1.4.0.12
