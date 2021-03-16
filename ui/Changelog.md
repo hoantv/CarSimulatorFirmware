@@ -1,3 +1,6 @@
+16/03/2021 1.4.0.15
++ Added: CAN/CANopen support to controller selection
+
 13/02/2021 1.4.0.13
 + Added: Calibration confirmation dialog
 

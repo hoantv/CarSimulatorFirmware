@@ -1,7 +1,7 @@
-#message={Added calibration confirmation dialog}
+#message={Added CAN/CANopen support}
 
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v1.4.0.13/VNMWheelConfig.exe
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v1.4.0.15/VNMWheelConfig.exe
 
 #method=0 (self-upgrade)
 
-#version=1.4.0.13
+#version=1.4.0.15
