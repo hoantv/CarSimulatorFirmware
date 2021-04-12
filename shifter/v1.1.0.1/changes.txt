@@ -1,0 +1,2 @@
+12/04/2021 1.1.0.1
+* Fixed: S-mode now uses button 9 & 10 instead of 1 & 2
