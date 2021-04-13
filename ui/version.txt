@@ -4,4 +4,4 @@
 
 #method=0 (self-upgrade)
 
-#version=v2.1.0.2
+#version=2.1.0.2
