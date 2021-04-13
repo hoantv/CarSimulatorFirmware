@@ -1,3 +1,53 @@
+13/04/2021 2.1.0.2
++ Added: Warning message when firmware version is lower than 1.2.x
+
+12/04/2021 2.1.0.1
+* Fixed: Disabled mode selection combobox
++ Added: Handled new shifter firmware 1.1+
+
+11/04/2021 2.0.0.2
+* Fixed: Shifter VID/PID display
+* Fixed: Replaced Syslog with richedit
+
+10/04/2021 2.0.0.2
+* Fixed: Update previously selected shifter index when device being removed
+* Fixed: Diag datain/out check
+
+09/04/2021 2.0.0.2
+* Fixed: Diagnostic function showing incorrect results
++ Added: ComPort reader
+
+08/04/2021 2.0.0.2
++ Added: Shifter diagnostic feature
+* Fixed: Shifter buttons not properly disabled while calibrating
+
+04/04/2021 2.0.0.1
++ Added: A 1-minute shifter health-check log
+* Fixed: Gridlines's color changed to red on Light theme
+* Fixed: Auto position button 9-16
+* Fixed: Proper handling of device unplug
+* Fixed: Shifter page reworked
+* Fixed: Refactored device enumeration procedure
++ Added: Multiple VID/PID detection
+* Fixed: Show error when unable to read device info
++ Added: Backwards compatiblility with Shifter_V1
+
+02/04/2021 2.0.0.1
++ Added: Button 16 display
+* Fixed: Duplicated items in shifter selection box
+
+28/03/2021 2.0.0.1
++ Added: Shortcuts to Window/Log (Ctrl + F9) and Window/Debug (Ctrl + F12)
+* Fixed: Properly show/hide log window on menu selection
++ Added: No updates message
+* Fixed: Updater reworked with indy instead of wininet
++ Added: Multi-device internal prepration
+* Fixed: Logging system reworked
+
+27/03/2021 2.0.0.1
++ Added: Window/Debug menu to show/hide Debug tab
+* Fixed: Debug tab hidden by default
+
 16/03/2021 1.4.0.15
 + Added: CAN/CANopen support to controller selection
 

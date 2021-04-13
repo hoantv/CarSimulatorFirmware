@@ -1,7 +1,7 @@
-#message={Added CAN/CANopen support}
+#message={First 2.x GA version with major changes to shifter interface}
 
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v1.4.0.15/VNMWheelConfig.exe
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v2.1.0.2/VNMWheelConfig.exe
 
 #method=0 (self-upgrade)
 
-#version=1.4.0.15
+#version=v2.1.0.2
