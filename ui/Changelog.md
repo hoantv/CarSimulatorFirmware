@@ -1,4 +1,23 @@
+17/04/2021 2.1.0.3
++ Added: Auto scroll log window
+* Fixed: Show log vertical scrollbar
+* Fixed: Flickering issue on some components due to cursor change
+* Fixed: Cursor not handled on Color selector dialog
++ Added: Theme based cursor
+* Fixed: Cursor not properly changed on TPopupMenu
+
+14/04/2021 2.1.0.3
++ Added: Custom cursors
++ Added: Auto select shifter if there is only one device
+
+14/04/2021 2.1.0.2
+* Fixed: Increased grid linewidth
+* Fixed: Workaround for shifter mode switching issue
+
 13/04/2021 2.1.0.2
+* Fixed: Hide buttons from 11 to 16
+* Fixed: Diagnose function did not send Ack command
+* Fixed: Shifter struct cleanup (Removed hMode field)
 + Added: Warning message when firmware version is lower than 1.2.x
 
 12/04/2021 2.1.0.1
