@@ -1,0 +1,22 @@
+20/04/2021 2.1.1.2
+* Fixed: Cleanups
+
+19/04/2021 2.1.1.2
+* Fixed: Check updates now runs in a separated thread to avoid UI freeze
+* Fixed: Use system log for update errorlog instead of messsagebox
+* Fixed: Log menu not checked when Log window is showing
+* Fixed: Better TPopupMenu custom cursor handling
+* Fixed: Removed autosize property from most of the labels
+* Fixed: Debug page reworked
+
+18/04/2021 2.1.1.1
+* Fixed: Removed FFoundWheelbase variable
+* Fixed: Check for updates activity now only runs after form is fully shown
++ Added: Show calculated led effect on statusbar on mouse hovering
+* Fixed: Preferences form revamped
++ Added: Option to show/hide log window at startup
++ Added: Auto select shifter when shifter page is active
++ Added: Showing grid coordinates when moving mouse withing the grid
+* Fixed: Re-organized shifter stats
++ Added: DevCnt field to statusbar indicating the number of connected devices
+* Fixed: DeviceManager reworked
