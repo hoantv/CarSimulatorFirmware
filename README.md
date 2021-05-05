@@ -1,6 +1,6 @@
 # CarSimulatorFirmware 
 
-CarSimulatorFirmware is the Open firmwares of VNM Simulation. It will include required firmwares for car simulator such as wheelbase, pedal, shifter, etc.
+CarSimulatorFirmware is the Open firmwares of VNM Simulation. It includes the required firmwares for car simulator peripherals such as wheelbase, pedal, shifter, etc.
 
 For discussion, please visit: https://discord.gg/NDk4pYd or https://www.facebook.com/groups/2303223886447618/?ref=share
 
@@ -13,7 +13,7 @@ For discussion, please visit: https://discord.gg/NDk4pYd or https://www.facebook
 
 The feature roadmap for VNM Wheelbase Firmware:
 * Load cells with high resolution and frequency
-* 24 bit mutil channel ADC
+* 24 bit multi channel ADC
 * Angle sensors
 * Absolute encoder
 * Configure the servo driver from the GUI
@@ -21,7 +21,7 @@ The feature roadmap for VNM Wheelbase Firmware:
 * Buttons for steering wheel, button box, paddles.
 
 2. Shifter
-- Hpattern and sequential modes supported
+- H-pattern and sequential modes supported
 - 2 analog inputs 
 - Configurable LED 
 - 2 buttons for truck knob
