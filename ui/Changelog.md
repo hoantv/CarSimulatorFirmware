@@ -1,3 +1,6 @@
+10/05/2021 2.2.0.3
+* Fixed: Incorrect wheel animation angle
+
 02/05/2021 2.2.0.2
 * Fixed: Removed global ThreadFileLogger
 + Added: madExcept for bug report 
