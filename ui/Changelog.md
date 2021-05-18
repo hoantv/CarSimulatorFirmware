@@ -1,5 +1,55 @@
+17/05/2021 2.3.0.1
++ Added: Help file
+
+16/05/2021 2.3.0.1
+* Fixed: Add size constraints to Log window
+* Fixed: Refactored all json related procedures
++ Added: TRec4Json class for record de/serialization
+
+15/05/2021 2.3.0.1
++ Added: Handbrake RX real time drawing serie
+* Fixed: Some incorrect label sizes on debug page
+* Fixed: Moved debug tab to a separated form (embedded)
+* Fixed: Replaced standard confirmation/information dialogs with a custom dialog
+
+14/05/2021 2.3.0.1
+* Fixed: Wheel angle step not correctly loaded from saved config
+* Fixed: Code refactored 1
+
+14/05/2021 2.2.1.6
++ Added: Custom HPresets save/load
++ Added: Configurable Handbrake RBuf Size
++ Added: Read handbrake config feature
+
+13/05/2021 2.2.1.5
++ Added: Read chart points from device
++ Added: Load handbrake version info
+
+12/05/2021 2.2.1.5
+* Fixed: logs directory not created automatically
+* Fixed: A bug where xAxis slider can be changed
++ Added: Handbrake supported when clicking on Device on DevPanel
++ Added: Sine preset & fixed map function
+* Fixed: Broken Show Log function when ShowLogWindow config set to False
++ Added: Some handbrake presets
++ Added: Handbrake device supported
+* Fixed: Device plug/unplug issues
+
+11/05/2021 2.2.0.4
++ Added: Internal handbrake related procedures
+* Fixed: Cleanups
++ Added: Enabled IMAGE_FILE_RELOCS_STRIPPED flag
++ Added: Configurable wheel angle step
+
 10/05/2021 2.2.0.3
 * Fixed: Incorrect wheel animation angle
+
+09/05/2021 2.2.0.2
+* Fixed: Refactored theme selection function
++ Added: Settings saved to statusbar
+* Fixed: Adjusted Settings page (changed OK to Save)
++ Added: Replaced TCustomControl with TEsCustomControl on some component for flicker-free
++ Added: Internal functions/procedures for Handbrake
 
 02/05/2021 2.2.0.2
 * Fixed: Removed global ThreadFileLogger
