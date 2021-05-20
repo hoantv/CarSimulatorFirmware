@@ -1,0 +1,9 @@
+20/05/2021 2.3.0.2
++ Added: Device count on status icon
+* Fixed: Removed device selection restriction on device arrival
+
+19/05/2021 2.3.0.2
+* Fixed: Check device when loading shifter configuration
+
+18/05/2021 2.3.0.2
+* Fixed: Disable deviceupdates when form not fully initialized to avoid AV
