@@ -1,3 +1,17 @@
+29/05/2021 2.3.0.4
+* Fixed: Issues with data handling between firmwares and UI
+* Fixed: Replaced bool with Boolean to avoid data type incorrect
+
+27/05/2021 2.3.0.4
+* Fixed: TPanelSlider; replaced SetPanel procedure with published Panel property
+
+24/05/2021 2.3.0.4
+* Fixed: Changed Show Devices menu to Show/Hide Devices
+* Fixed: DeviceManager; Autohiding triggers immediately on the first show
+* Fixed: Incorrect theme cursor on some components
+* Fixed: Changed pressed shifter button color from clGreen to clLime
+* Fixed: Shifter page minor adjustments
+
 22/05/2021 2.3.0.3
 * Fixed: Update check not working 
 + Added: Embedded libeay32.dll and ssleay32.dll for SSL connections

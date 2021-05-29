@@ -1,6 +1,0 @@
-22/05/2021 2.3.0.3
-* Fixed: Update check not working 
-+ Added: Embedded libeay32.dll and ssleay32.dll for SSL connections
-
-20/05/2021 2.3.0.3
-+ Added: Wheel animation test form (Dbl click on the wheel image)
