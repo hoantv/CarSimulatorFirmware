@@ -41,3 +41,5 @@ For bug reporting, please fill out the following form with as much details as po
 
 (A github issue is preferred for better bug tracking)
 </pre>
+
+More documentation is in the wiki pages of the repository
