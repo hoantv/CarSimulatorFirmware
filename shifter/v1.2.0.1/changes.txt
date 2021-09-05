@@ -1,0 +1,4 @@
+13/04/2021 1.2.0.1
++ Added: New mode switching solution
+* Fixed: Removed H-Mode button to avoid game settings conflict 
+* Fixed:Unable to detect shifter position while doing calibration

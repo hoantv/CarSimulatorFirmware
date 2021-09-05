@@ -1,0 +1,7 @@
+01/06/2021 2.4.0.1
+* Fixed: AV when removing a corrupted device (unamed)
++ Added: Warning message when using 0.x wheelbase firmwares
+* Fixed: Supported new wheelbase version (1.x)
+
+30/05/2021 2.3.1.1
+* Fixed: Attempted to avoid RichEdit line insertion error

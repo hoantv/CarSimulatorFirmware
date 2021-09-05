@@ -1,0 +1,102 @@
+/******************** (C) COPYRIGHT 2018 STMicroelectronics ********************
+* File Name          : version.txt
+* Author             : MCD Application Team
+* Version            : V3.0.6
+* Date               : 01-June-2018
+* Description        : Version file for STTube driver
+********************************************************************************
+
+* V3.0.6 - 01-June-2018
+=====================
+
+New Features
+************
+    + Signed and Certified  driver Included in the package for:
+      - Microsoft Windows 10 x86 and all earlier x86 OS
+      - Microsoft Windows 10 x64 and all earlier x64 OS
+	  
+How to use
+**********
+        + Go Win10 Directory for all OS installed in your machine
+        + Then  based on your OS version:
+			- Double click on dpinst_x86.exe if you are running a 32-bits OS version
+			- Double click on dpinst_amd64.exe if you are running a 64-bits OS version
+		+ Follow the instructions
+		
+	
+
+* V3.0.5 - 01-September-2015
+=====================
+
+New Features
+************
+    + HCK Certified with and published at WindowsUpdate web site :
+      - Microsoft Windows 8.1
+      - Microsoft Windows 8.1 x64
+	  
+How to use
+**********
+        + Go to your OS version directory (Win7, Win8 or Win8.1)
+        + Then go to [x86] directory or [x64] directory based on your OS version:
+			- Double click on dpinst_x86.exe if you are running a 32-bits OS version
+			- Double click on dpinst_amd64.exe if you are running a 64-bits OS version
+		+ Follow the instructions
+
+
+* V3.0.4 - 10/20/2014
+=====================
+
+New Features
+************
+    + WHQL Certified with and published at WindowsUpdate web site :
+      - Microsoft Windows 8.x
+      - Microsoft Windows 8.x x64
+	  
+How to use
+**********
+        + Go to your OS version directory (Win7 or Win8)
+        + Then go to [x86] directory or [x64] directory based on your OS version:
+			- Double click on dpinst_x86.exe if you are running a 32-bits OS version
+			- Double click on dpinst_amd64.exe if you are running a 64-bits OS version
+		+ Follow the instructions
+	  
+
+* V3.0.1 - 11/24/2009
+=====================
+
+New Features
+************
+    + WHQL Certified with and published at WindowsUpdate web site :
+      - Microsoft Windows 2000 family, 
+      - Microsoft Windows XP family, x86
+      - Microsoft Windows XP family, x64 
+      - Microsoft Windows Vista family, x86
+      - Microsoft Windows Vista family, x64 
+      - Microsoft Windows 7
+      - Microsoft Windows 7 x64
+
+
+* V3.0.0 - 07/03/2008
+=====================
+
+New Features
+************
+
+    + Support devices with several interfaces
+    + Support for composite / multifunction devices
+    + Support for WIndows VISTA and Windows Seven
+    + Support for 64 bits platforms
+
+Enhancements
+************
+
+    + make ioctl cancelable
+    + cancel pending request when application closes
+    + suspend and hibernate modes
+    + suspend while requests are pending
+    + surprise removal during transfer
+    + robustness issues for malformed iotcl ( microsoft certification tests )
+    + memory leak in specific stop cases ( microsoft certification tests )
+    + return status codes ( microsoft certification tests )
+
+******************* (C) COPYRIGHT 2018 STMicroelectronics *****END OF FILE******

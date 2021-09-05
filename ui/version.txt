@@ -1,0 +1,4 @@
+#message={Fixed shifter grid scaling issue. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v2.6.1.4/VNMWheelConfig.exe
+#method=0 (self-upgrade)
+#version=2.6.1.4

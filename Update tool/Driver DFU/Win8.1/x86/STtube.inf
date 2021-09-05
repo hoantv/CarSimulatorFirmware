@@ -1,0 +1,212 @@
+;*******************************************************************************
+;*                                                                             *
+;* Copyright (c) 2015 STMicroelectronics                                       *
+;*                                                                             *
+;* Licensed under MCD-ST Liberty SW License Agreement V2, (the "License");     *
+;* You may not use this file except in compliance with the License.            *
+;* You may obtain a copy of the License at:                                    *
+;*                                                                             *
+;*        http://www.st.com/software_license_agreement_liberty_v2              *
+;*                                                                             *
+;* Unless required by applicable law or agreed to in writing, software         *
+;* distributed under the License is distributed on an "AS IS" BASIS,           *
+;* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.    *
+;* See the License for the specific language governing permissions and         *
+;* limitations under the License.                                              *
+;*                                                                             *
+;*******************************************************************************
+
+; STtube.inf
+
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+ClassGUID={36FC9E60-C465-11CF-8056-444553540000}
+Provider=%ProviderName%
+DriverVer=01/29/2015,3.0.5.0
+CatalogFile=sttube.cat
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[Manufacturer]
+%MfgName%=Mfg0,NTx86,NTamd64
+
+[Mfg0]
+%USB\VID_0483&PID_DF11_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_DF11
+%USB\VID_0483&PID_DF12_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_DF12&MI_01
+%USB\VID_0483&PID_DF13_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_DF13&MI_01
+%USB\VID_0483&PID_FF03_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_FF03&MI_01
+%USB\VID_0483&PID_5722_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_5722
+%USB\VID_0483&PID_5721_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_5721
+%USB\VID_8086&PID_09FA_DeviceDesc%=STTub30.Device, USB\VID_8086&PID_09FA&REV_0200
+%USB\VID_8087&PID_09F9_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_09F9&REV_0200
+%USB\VID_8087&PID_09FA_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_09FA&REV_0200
+%USB\VID_8087&PID_0A01_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A01&REV_0200
+%USB\VID_8087&PID_0A02_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A02&REV_0200
+%USB\VID_8087&PID_0A03_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A03&REV_0200
+%USB\VID_8087&PID_0A04_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A04&REV_0200
+%USB\VID_8087&PID_0A05_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A05&REV_0200
+%USB\VID_8087&PID_0A06_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A06&REV_0200
+%USB\VID_17EF&PID_0700_DeviceDesc%=STTub30.Device, USB\VID_17EF&PID_0700&REV_0200
+
+[Mfg0.NTx86]
+%USB\VID_0483&PID_DF11_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_DF11
+%USB\VID_0483&PID_DF12_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_DF12&MI_01
+%USB\VID_0483&PID_DF13_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_DF13&MI_01
+%USB\VID_0483&PID_FF03_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_FF03&MI_01
+%USB\VID_0483&PID_5722_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_5722
+%USB\VID_0483&PID_5721_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_5721
+%USB\VID_8086&PID_09FA_DeviceDesc%=STTub30.Device, USB\VID_8086&PID_09FA&REV_0200
+%USB\VID_8087&PID_09F9_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_09F9&REV_0200
+%USB\VID_8087&PID_09FA_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_09FA&REV_0200
+%USB\VID_8087&PID_0A01_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A01&REV_0200
+%USB\VID_8087&PID_0A02_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A02&REV_0200
+%USB\VID_8087&PID_0A03_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A03&REV_0200
+%USB\VID_8087&PID_0A04_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A04&REV_0200
+%USB\VID_8087&PID_0A05_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A05&REV_0200
+%USB\VID_8087&PID_0A06_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A06&REV_0200
+%USB\VID_17EF&PID_0700_DeviceDesc%=STTub30.Device, USB\VID_17EF&PID_0700&REV_0200
+
+[Mfg0.NTamd64]
+%USB\VID_0483&PID_DF11_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_DF11
+%USB\VID_0483&PID_DF12_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_DF12&MI_01
+%USB\VID_0483&PID_DF13_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_DF13&MI_01
+%USB\VID_0483&PID_FF03_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_FF03&MI_01
+%USB\VID_0483&PID_5722_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_5722
+%USB\VID_0483&PID_5721_DeviceDesc%=STTub30.Device, USB\VID_0483&PID_5721
+%USB\VID_8086&PID_09FA_DeviceDesc%=STTub30.Device, USB\VID_8086&PID_09FA&REV_0200
+%USB\VID_8087&PID_09F9_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_09F9&REV_0200
+%USB\VID_8087&PID_09FA_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_09FA&REV_0200
+%USB\VID_8087&PID_0A01_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A01&REV_0200
+%USB\VID_8087&PID_0A02_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A02&REV_0200
+%USB\VID_8087&PID_0A03_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A03&REV_0200
+%USB\VID_8087&PID_0A04_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A04&REV_0200
+%USB\VID_8087&PID_0A05_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A05&REV_0200
+%USB\VID_8087&PID_0A06_DeviceDesc%=STTub30.Device, USB\VID_8087&PID_0A06&REV_0200
+%USB\VID_17EF&PID_0700_DeviceDesc%=STTub30.Device, USB\VID_17EF&PID_0700&REV_0200
+
+[PreCopySection]
+HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+STTub30.Files.Ext.NT      = 10,System32\Drivers
+;STTub30.Files.Ext.NTx86 = 10,System32\Drivers
+;STTub30.Files.Ext.amd64 = 10,System32\Drivers
+
+[SourceDisksNames]
+1="ST Tube Driver 3.0 disk",,,\x86
+
+[SourceDisksFiles]
+STTub30.sys=1,
+
+[SourceDisksNames.x86]
+1="ST Tube Driver 3.0 disk",,,\x86
+
+[SourceDisksFiles.x86]
+STTub30.sys=1,
+
+[SourceDisksNames.amd64]
+1="ST Tube Driver 3.0 disk",,,\x64
+
+[SourceDisksFiles.amd64]
+STTub30.sys=1,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; WINDOWS 98
+
+;[STTub30.Device]
+;CopyFiles=STTub30.Files.Ext
+;AddReg=STTub30.AddReg, STTub30.AddLicences
+
+;[STTub30.AddReg]
+;HKR,,DevLoader,,*ntkern
+;HKR,,NTMPDriver,,STTub30.sys
+;HKR, "Parameters", "BreakOnEntry", FLG_ADDREG_TYPE_DWORD, 1
+
+;[STTub30.Files.Ext]
+;STTub30.sys
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; WINDOWS 2000
+
+[STTub30.Device.NT]
+CopyFiles=STTub30.Files.Ext.NT
+
+[STTub30.Files.Ext.NT]
+STTub30.sys
+
+[STTub30.Device.NT.Services]
+Addservice = STTub30, 0x00000002, STTub30.AddService
+
+[STTub30.AddService]
+DisplayName    = %SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\STTub30.sys
+;LoadOrderGroup = Base
+AddReg=STTub30.AddLicences
+
+[STTub30.AddLicences]
+; LICENCE INFO 
+; 0483_XXXX
+; HKR,38d2eab3dd072a1c,"{3fe809ab-fb91-4cb5-a643-69670d52366e}",, "" 
+; 0483_DF11
+HKR,6f72a98be4e1edad,"{3fe809ab-fb91-4cb5-a643-69670d52366e}",, "" 
+; 0483_DF12
+HKR,80ed17d4d44886bb,"{3fe809ab-fb91-4cb5-a643-69670d52366e}",, ""
+; 0483_DF13
+HKR,62b6f533f0031981,"{3fe809ab-fb91-4cb5-a643-69670d52366e}",, ""
+; 0483_FF03
+HKR,d083fc290a34aa18,"{CB979912-5029-420a-AEB1-34FC0A7D5726}",, ""
+; 0483_5722
+HKR,8a9924f713390cca,"{03DFD020-2828-11d5-95D7-0050041B1E9F}",, ""
+; 0483_5721
+HKR,dee8f141f107f6d3,"{03DFD020-2828-11d5-95D7-0050041B1E9F}",, ""
+; 8086_09FA
+HKR,09e1c593bc8b8196,"{34425AE9-E5D5-4154-AF49-740EE2590DA9}",, ""
+; 8087_09F9
+HKR,afe599042413b762,"{34425AE9-E5D5-4154-AF49-740EE2590DA9}",, ""
+; 8087_09FA
+HKR,788e9244de59d94f,"{34425AE9-E5D5-4154-AF49-740EE2590DA9}",, ""
+; 8087_0A01
+HKR,fa91b2bf350bbd07,"{34425AE9-E5D5-4154-AF49-740EE2590DA9}",, ""
+; 8087_0A02
+HKR,9301441d13ea4f63,"{34425AE9-E5D5-4154-AF49-740EE2590DA9}",, ""
+; 8087_0A03
+HKR,765ca3565d2ff7a0,"{34425AE9-E5D5-4154-AF49-740EE2590DA9}",, ""
+; 8087_0A04
+HKR,870737b6779c906b,"{34425AE9-E5D5-4154-AF49-740EE2590DA9}",, ""
+; 8087_0A05
+HKR,21deb1ae443dba9b,"{34425AE9-E5D5-4154-AF49-740EE2590DA9}",, ""
+; 8087_0A06
+HKR,f8db874959124c29,"{34425AE9-E5D5-4154-AF49-740EE2590DA9}",, ""
+; 17EF_0700
+HKR,e541e797cc340728,"{3fe809ab-fb91-4cb5-a643-69670d52366e}",, ""
+;---------------------------------------------------------------;
+
+[Strings]
+ProviderName="STMicroelectronics"
+MfgName="STMicroelectronics"
+
+
+USB\VID_17EF&PID_0700_DeviceDesc="Lenovo Basic Plus Device in DFU Mode"
+USB\VID_0483&PID_DF11_DeviceDesc="STM Device in DFU Mode"
+USB\VID_0483&PID_DF12_DeviceDesc="µPSD - DFU STMicroelectronics Extension Application Demo"
+USB\VID_0483&PID_DF13_DeviceDesc="STR7 - DFU STMicroelectronics Extension Application Demo"
+USB\VID_0483&PID_FF03_DeviceDesc="ST7 USB Low Speed - DFU STMicroelectronics Extension Application Demo"
+USB\VID_0483&PID_5722_DeviceDesc="STMicroelectronics Bulk Demo"
+USB\VID_0483&PID_5721_DeviceDesc="STMicroelectronics Interrupt Demo"
+USB\VID_8086&PID_09FA_DeviceDesc="Intel(R) Sensor Solution Legacy DFU"
+USB\VID_8087&PID_09F9_DeviceDesc="Intel(R) Sensor Solution Unknown DFU"
+USB\VID_8087&PID_09FA_DeviceDesc="Intel(R) Sensor Solution Blue Box DFU"
+USB\VID_8087&PID_0A01_DeviceDesc="Intel(R) Sensor Solution PUBRD 2.0 DFU"
+USB\VID_8087&PID_0A02_DeviceDesc="Intel(R) Sensor Solution Hero DFU"
+USB\VID_8087&PID_0A03_DeviceDesc="Intel(R) Sensor Solution NTG Board DFU"
+USB\VID_8087&PID_0A04_DeviceDesc="Intel(R) Sensor Solution DFU 0A04"
+USB\VID_8087&PID_0A05_DeviceDesc="Intel(R) Sensor Solution DFU 0A05"
+USB\VID_8087&PID_0A06_DeviceDesc="Intel(R) Sensor Solution PNP Board DFU"
+
+
+SvcDesc="USB Driver for Tube device v3.0.5.0"

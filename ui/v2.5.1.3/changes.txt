@@ -1,0 +1,5 @@
+24/06/2021 2.5.1.3
++ Added: Shifter; led speed and brightness configurable options
+
+22/06/2021 2.5.1.3
+* Fixed: Auto grid adjustments failed to work when gear 11 or 12 is on

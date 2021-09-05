@@ -1,0 +1,8 @@
+30/05/2021 2.3.1.0
+* Fixed: Wheelbase debug mode being disabled
+* Fixed: AV when closing wheel test window while doing the test
+* Fixed: Disabled wheel test when a working wheelbase is connected
++ Added: Configurable max angle (Preferences/Wheelbase). Default: 1080, max: 7200
+
+29/05/2021 2.3.1.0
++ Added: General option to capture recv packets and save to debug.log

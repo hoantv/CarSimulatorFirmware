@@ -1,0 +1,7 @@
+Release/**
+Debug/**
+Debug
+Release
+.settings
+*.log
+*.ini
