@@ -1,6 +1,0 @@
-02/09/2021 2.6.1.4
-+ Added: Constraints to grid lines' positions when doing auto adjustment
-* Fixed: Empty newline in log files
-+ Added: Some more logs to shifter calibration
-* Fixed: Shifter grid scaling issue
-* Fixed: Removed wheelbase compatibility warning for 2.6.x
