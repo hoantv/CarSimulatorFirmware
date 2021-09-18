@@ -1,0 +1,5 @@
+**V1.0.1.11: This version is almost new firmware, many changes internally. There is some important changes
+- PE11 is pwm only, Dir is PE8
+- Add prohibit PE7, when stm32 power PE7 = 1 -> active the servo driver.
+- Add external DAC MCP4922 (check wiki for wiring)
+- Modify min force function.
