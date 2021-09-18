@@ -1,0 +1,7 @@
+1. Install DFU driver
+	https://youtu.be/4aOPBS981fo
+2. Shifter Firmware Upgrade:
+	https://youtu.be/yQQyOr5eC94
+3. Shifter Calibartion: 
+	https://youtu.be/TBTYcRJ-m4M
+       
