@@ -1,0 +1,9 @@
+This is guide how to upgrade VNM Wheelbase firmware V2 for STM32H7
+- download https://github.com/hoantv/CarSimulatorFirmware
+- download & install en.stm32cubeprog_v2-4-0 (https://www.st.com/en/development-tools/stm32cubeprog.html, maybe it required java if you dont have)
+- turn your stm32 to dfu mode (with VNM ffb controller, there is a switch to turn MCU to DFU mode, reconnect to PC or click reset button on the PCB)
+- Open STM32CubeProgrammer, choose USB in the selectbox at the top right of STM32CubeProgrammer (it shows ST-link) -> click connect 
+- choose Erasing end programing (the second items on the top left of STM32CubeProgrammer) 
+- click browse and choose file hex to upload.
+- tick full chip erase and download file -> click start automatic mode.
+- leave DFU mode and reconnect STM32
