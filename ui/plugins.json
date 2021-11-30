@@ -1,4 +1,4 @@
-[
+{"plugins":[
 {
  "name":"test",
  "path":"plugins/test.vnp",
@@ -9,3 +9,4 @@
  "version": "1.0"
  }
 ]
+}
