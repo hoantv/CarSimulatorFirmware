@@ -1,3 +1,178 @@
+30/11/2021 3.0.1.4
++ Added: CommitID to version info
++ Added: Embedded python to resources
+* Fixed: Removed shifter warning if current device is a wheelbase
+
+29/11/2021 3.0.1.3
+* Fixed: Conflicted Legacy configuration
+
+16/11/2021 3.0.1.3
+* Fixed: Unwanted packet sending behavior due to the back/w compatibility introduced on 6/10
+Notes: Set Legacy to True in [Base]  config section for firmwares with version <=1.0.1.12
+* Fixed: Removed duplicated resources
+* Fixed: Skinning issue with dialogs or BorderStyle=bsDialog
+
+14/11/2021 3.0.1.3
+* Fixed: Settings not properly loaded when showing Preferences page
+* Fixed: Replaced some threaded timers with normal timers to avoid race conditions
+
+13/11/2021 3.0.1.3
+* Fixed: Adjusted upgrade wizard
+* Fixed: Log new states instead of old states when user click on checkboxes
++ Added: Select next available shifter when incompatible one caught instead of selecting none
+* Fixed: Increased log buffer to 256
+* Fixed: Broken dialog skins
+
+07/11/2021 3.0.1.3
+* Fixed: Improved Plugin engine for better performance
++ Added: Python version config ([Python] section). Default: version 3.8
++ Added: File check when editor onchange fired
+
+05/11/2021 3.0.1.3
++ Added: Save function to script editor
+* Fixed: Tabs not working on script editor
+* Fixed: Duplicates not allowed exception when resuming from sleep/hibernate
+
+04/11/2021 3.0.1.2
++ Added: Send telemetry data to firmware
+
+01/11/2021 3.0.1.2
+* Fixed: Plugin Engine not properly initialized in some cases
+* Fixed: Save general wheelbase config
+
+31/10/2021 3.0.1.2
+* Fixed: Incorrect behaviour of exposed Log function
+
+30/10/2021 3.0.1.2
++ Added: Plugin execution stats
+* Fixed: Updated to Delphi 11 Alexandria
+* Fixed: Index out of bound when adding device
+
+28/10/2021 3.0.1.2
+* Fixed: Mouse cursor on TOpenDialog/TSaveDialog
+
+26/10/2021 3.0.1.2
+ * Fixed: Disabled right click on charts
++ Added: Single line command box to scripting page
+
+24/10/2021 3.0.1.2
+* Fixed: Changed cursor for light theme
++ Added: Script Editor (Window/Script Editor)
+
+23/10/2021 3.0.1.2
++ Added: Log function to utils module
++ Added: Exposed MainForm to plugins. Usage: import plugins.MainForm
++ Added: Telemetry plugin preview feature
+
+21/10/2021 3.0.1.1
++ Added: Implemented plugin reload feature
+* Fixed: Wheelbase reconnect function properly implemented
+
+20/10/2021 3.0.1.1
++ Added: Plugin validation
+
+19/10/2021 3.0.1.1
++ Added: Sample plugin
++ Added: Plugin skeleton
++ Added: Implemented plugin system using Python
+
+18/10/2021 3.0.1.1
++ Added: Python distribution
+
+17/10/2021 3.0.1.1
++ Added: Experimental config section
+
+12/10/2021 3.0.1.1
+* Fixed: Handled race condition in logging function
+* Fixed: Improved startup process
+* Fixed: Properly handled HidDeviceCreateError
+
+10/10/2021 3.0.1.1
+* Fixed: Moved Notification stack to Device Manager
+* Fixed: Replaced filename selector on Debug page with a checkbox
++ Added: A delay of 2s between consecutive notifications
++ Added: Implemented a rate limit of 3/s for Show/Hide Devices menu item to prevent unexpected behaviors
+* Fixed: Moved Device sliders to DeviceManager class
+* Fixed: Device Panel reworked
++ Added: Jcl exception tracker
+
+06/10/2021 3.0.0.2
++ Added: Backwards compatibilty for changes made to wheelbase packets on 29/9
+* Fixed: Attempted to fix AV when auto sliding panel activated
+
+05/10/2021 3.0.0.2
++ Added: A delay of 150ms before sending ack command
++ Added: Implemented sampling procedure for progressbar animation
++ Added: Implemented pedal axes configuration
+* Fixed: Removed pedal bar update constraints
+* Fixed: Packet sent when no pedal axis selected
+
+04/10/2021 3.0.0.2
++ Added: Implemented graph sampling scaler
+* Fixed: AV when handling Pedal report
+
+03/10/2021 3.0.0.1
++ Added: GraphSamplingRate config under Packets section. Default: 30
++ Added: Packet sampling feature to have smooth graph drawing. Default: 30ms
+
+02/10/2021 3.0.0.1
+* Fixed: Better packet logging
+* Fixed: Pedal/Shifter not selected when wheelbase connected
++ Added: Warning log when device has no read/write access
+
+01/10/2021 3.0.0.1
+* Fixed: Some buttons, comboboxes are not disabled while pedal calibration mode is on
+* Fixed: Pedal graph lagging issue
+* Fixed: Joystick value not being properly constrained
+* Fixed: Converted pedal packets to 16bit
+* Fixed: Device stats calculation
+* Fixed: Pedal packets sent when no axis selected
+* Fixed: On connected wheelbase data not handled when viewing other tabs
+* Fixed: Wheelbase not properly removed when unplugging
+
+30/09/2021 3.0.0.1
+* Fixed: Adjusted handbrake request type
++ Added: [Packets] RateLimit config. Default: True with a rate of 100 pkts/s
++ Added: Implemented packet rate limiter
+* Fixed: Improved Pedal & Handbrake graph drawing
+* Fixed: Show the shifter firmware incompatibility message once
+* Fixed: Issue when removing wheelbase device as a shifter because of incompatibility
++ Added: Handle wheelbase report as Pedal properly
+* Fixed: UI lagging issue when viewing pedal tab
+* Fixed: Pedal/shifter/handbrake packet handling issues (wheelbase)
+
+29/09/2021 3.0.0.1
+* Fixed: Removed wheelbase from handbrake selector
+* Fixed: Moved some objects to wheelbase when sending packets (breaking change)
++ Added: Implemented telemetry engine
++ Added: Save/load last played game data
+* Fixed: Joystick report issue
+* Fixed: Data handling issue
+
+28/09/2021 3.0.0.1
++ Added: R3E related shared memory structs
++ Added: AC/ACC telemetry data collector
+* Fixed: Changed infotext font color to white on dark theme
++ Added: Internal preparation for telemetry data collector
+
+22/09/2021 2.7.0.1
+* Fixed: Unable to comunicate with wheelbase in other device modes (shifter, pedal)
++ Added: 0xA3D5 & 0xA3D6 to wheelbase PID list
+
+11/09/2021 2.7.0.1
+* Fixed: A bug in log function where input parameters not being applied correctly
++ Added: Implemented window states management
+* Fixed: Replaced 'Show Log window at startup' with 'Restore last window states'
+* Fixed: Debug page adjustments
+
+08/09/2021 2.7.0.1
+* Fixed: Display profile/preset current name when renaming
+* Fixed: Wheelbase profile loading issue
+
+07/09/2021 2.7.0.1
+* Fixed: Tips timer interval randomized between 3 & 7 secs
+* Fixed: Re-added wheelbase compatibility warning
+
 02/09/2021 2.6.1.4
 + Added: Constraints to grid lines' positions when doing auto adjustment
 * Fixed: Empty newline in log files

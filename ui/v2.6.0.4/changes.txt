@@ -1,8 +1,0 @@
-18/07/2021 2.6.0.4
-* Fixed: Updater failed when path containing spaces
-* Fixed: Shifter grid over-scaled issue
-* Fixed: UI adjustments
-
-17/07/2021 2.6.0.4
-* Fixed: Improved image transparency
-* Fixed: Shifter crosshair coords not correctly scaled on high dpi screens
