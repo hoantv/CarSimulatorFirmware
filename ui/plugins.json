@@ -1,0 +1,11 @@
+[
+{
+ "name":"test",
+ "path":"plugins/test.vnp",
+ "version": "1.0"
+ },
+ "name":"AC",
+ "path":"plugins/AC.vnp",
+ "version": "1.0"
+ }
+]
