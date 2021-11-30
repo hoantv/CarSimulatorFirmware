@@ -1,0 +1,2 @@
+test plugins/test.vnp 1.0
+AC plugins/AC.vnp 1.0

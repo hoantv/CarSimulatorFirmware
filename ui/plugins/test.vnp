@@ -1,0 +1,12 @@
+import socket
+class PluginInfo:
+   Name='Test Plugin'
+   PluginType='telemetry'
+   Author='chinhnc'
+   Description='Test plugin'
+   Version='1.0'
+   
+s = socket.socket()
+s.bind(('127.0.0.1', 5000))
+
+s.listen(1)
