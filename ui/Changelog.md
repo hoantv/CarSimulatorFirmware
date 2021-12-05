@@ -1,3 +1,14 @@
+05/12/2021 3.0.2.1
++ Added: Auto detected Legacy firmwares
+
+04/12/2021 3.0.1.5
++ Added: Show local plugins on Plugin Store
+
+01/12/2021 3.0.1.5
++ Added: Implemented Plugin store feature
++ Added: Legacy mode to log
+* Fixed: Disabled telemetry by default (Experimental flag)
+
 30/11/2021 3.0.1.4
 + Added: CommitID to version info
 + Added: Embedded python to resources

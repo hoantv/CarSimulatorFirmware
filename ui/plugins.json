@@ -1,13 +1,12 @@
-{"plugins":[
 {
- "name":"test",
- "path":"plugins/test.vnp",
- "version": "1.0"
- },
- {
- "name":"AC",
- "path":"plugins/AC.vnp",
- "version": "1.0"
- }
-]
+ "plugins": [
+  {
+   "version": "1.0",
+   "path": "plugins/test.vnp",
+   "name": "test"
+  },{
+   "version": "1.0",
+   "path": "plugins/AC.vnp",
+   "name": "AC"
+  }]
 }

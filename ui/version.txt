@@ -1,4 +1,4 @@
-#message={Huge update with new features and improvements. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.0.1.4/VNMWheelConfig.exe
+#message={Plugin store & auto detection of old firmwares. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.0.2.1/VNMWheelConfig.exe
 #method=0 (self-upgrade)
-#version=3.0.1.4
+#version=3.0.2.1
