@@ -1,3 +1,9 @@
+15/12/2021 3.0.2.2
+* Fixed: Frame scaling issue introduced in v3.0.1.2
+
+08/12/2021 3.0.2.1
+* Fixed: Failed to download plugin if directory not exists
+
 05/12/2021 3.0.2.1
 + Added: Auto detected Legacy firmwares
 

@@ -1,4 +1,4 @@
-#message={Plugin store & auto detection of old firmwares. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.0.2.1/VNMWheelConfig.exe
+#message={Fixed high DPI scaling issue. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.0.2.2/VNMWheelConfig.exe
 #method=0 (self-upgrade)
-#version=3.0.2.1
+#version=3.0.2.2
