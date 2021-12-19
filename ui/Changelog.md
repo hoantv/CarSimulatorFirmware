@@ -1,3 +1,14 @@
+18/12/2021 3.0.2.3
++ Added: Adapter page
++ Added: Constraints added to shifter smart calibration
+
+17/12/2021 3.0.2.3
+* Fixed: Moved Apply button on Base page to Profile group
+* Fixed: Shifter auto grid minor adjustments 
+
+16/12/2021 3.0.2.3
+* Fixed: Disabled rate limiter by default
+
 15/12/2021 3.0.2.2
 * Fixed: Frame scaling issue introduced in v3.0.1.2
 
