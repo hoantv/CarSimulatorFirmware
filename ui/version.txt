@@ -1,4 +1,4 @@
-#message={Fixed high DPI scaling issue. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.0.2.3/VNMWheelConfig.exe
+#message={Implemented adapter device & Help file. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.1.0.2/VNMWheelConfig.exe
 #method=0 (self-upgrade)
-#version=3.0.2.3
+#version=3.1.0.2

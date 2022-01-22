@@ -1,0 +1,41 @@
+22/01/2022 3.1.0.2
+* Fixed: Help menu shortcut not shown
+
+12/01/2022 3.1.0.2 
+* Fixed: Updated VNMHelp file
+
+11/01/2022 3.1.0.2 
+* Fixed: Adjusted Advanced Filter description
+* Fixed: Removed Peak Gain from Advanced Filter
+
+10/01/2022 3.1.0.2 
++ Added: Log memory usage on exception
++ Added: ShowMemTracker to python scripting
+
+04/01/2022 3.1.0.2
+* Fixed: Infinitive config reload issue
+
+03/01/2022 3.1.0.2
++ Added: AutoReload config feature
+* Fixed: Adjusted sliding animation factor for device panel
+
+01/01/2022 3.1.0.2
+* Fixed: Improved label display in right alignment mode
++ Added: Display adapter version on statusbar
++ Added: Adapter data handler
+
+26/12/2021 3.1.0.2
++ Added: Vertical scrollbar to scripting output window
+* Fixed: Made isatty returning False
+
+25/12/2021 3.1.0.1
++ Added: Configurable PinValues for adapter
+
+24/12/2021 3.1.0.1
+* Fixed: Improved Adapter chip drawings
+
+22/12/2021 3.1.0.1
++ Added: Load last opened script
+
+19/12/2021 3.1.0.1
++ Added: Implemented adapter device
