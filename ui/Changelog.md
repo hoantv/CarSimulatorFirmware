@@ -1,3 +1,63 @@
+01/04/2022 3.2.0.2
+* Fixed: UDP packet routing patterns not properly cleared when changing plugins
+* Fixed: Access violation when closing Wheel anim window
+* Fixed: Access violation when switching to Scripting page while Telemetry engine is running
++ Added: DFU devices detection
+
+08/03/2022 3.2.0.1
+* Fixed: Scripting page; Cmdbar text not visible
++ Added: Implemented another 9 shared memory blocks for UDP packet routing
+* Fixed: Access violation when switching to Scripting page (rare case)
+* Fixed: Upgrader Read timed out error not handled correctly
+
+07/03/2022 3.2.0.1
++ Added: Sliding animation to Telemetry panel
+
+05/03/2022 3.2.0.1
+* Fixed: Moved packet related settings to Packets section
+* Fixed: Promoted Plugins feature to stable
++ Added: Telemetry settings (Menu>Window>Telemetry or Ctrl + T)
+* Fixed: Moved telemetry to a separated form
+* Fixed: Deprecated wheelbase telemetry field (the option is now saved on UI only)
+
+04/03/2022 3.2.0.1
++ Added: UDP Server support for sharing data between games and plugins
++ Added: UDPPort config in Plugins section. Default = 0
+
+01/03/2022 3.1.0.4
+* Fixed: Index out of bounds when Unplugging devices
+* Fixed: Removed default telemetry games
++ Added: 0xA3DB to Adapter PID list
+
+24/02/2022 3.1.0.4
+* Fixed: Adjusted caption position of vertical buttons
+
+23/02/2022 3.1.0.4
+* Fixed: Incorrect menu border on high DPI screens
+* Fixed: Disabled AutoSize on components for better scaling
+
+12/02/2022 3.1.0.3
+* Fixed: Index out of bounds exception when removing devices
+* Fixed: Device panel stop issue when updating devices
+
+07/02/2022 3.1.0.3
++ Added: Manual pedal calibration inputs
+* Fixed: Removed axes configuration form
+* Fixed: Re-arranged Pedal page
+* Fixed: Vertical pins re-designed
+
+06/02/2022 3.1.0.3
++ Added: Implemented Adapter Pin Group
+
+31/01/2022 3.1.0.3
++ Added: Adapter pin configuration
+
+29/01/2022 3.1.0.3
+* Fixed: Modified about window
+* Fixed: Moved show/hide devices to Window menu
+* Fixed: Adjusted main menu icons
++ Added: Home Page link to Help menu
+
 22/01/2022 3.1.0.2
 * Fixed: Help menu shortcut not shown
 

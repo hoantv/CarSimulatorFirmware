@@ -1,4 +1,4 @@
-#message={Implemented adapter device & Help file. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.1.0.2/VNMWheelConfig.exe
+#message={Promoted plugin feature. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.2.0.2/VNMWheelConfig.exe
 #method=0 (self-upgrade)
-#version=3.1.0.2
+#version=3.2.0.2
