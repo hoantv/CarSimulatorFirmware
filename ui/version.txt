@@ -1,4 +1,4 @@
-#message={Startup speed improvements and binary name change. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.2.0.3/VNMWheelConfig.exe
+#message={Binary name change and duplicated request id handling. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.2.0.4/VNMConfig.exe
 #method=0 (self-upgrade)
-#version=3.2.0.3
+#version=3.2.0.4

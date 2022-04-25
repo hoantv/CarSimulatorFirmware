@@ -1,3 +1,11 @@
+25/04/2022 3.2.0.4
+* Fixed: Changed update binary filename to VNMConfig.exe
+* Fixed: Duplicated request id acks in Pedal packet handler
+
+11/04/2022 3.2.0.4
++ Added: Pedal calibration hint
+* Fixed: Bounds check added to TSampler to prevent AV
+
 06/04/2022 3.2.0.3
 * Fixed: Adjusted upgrade wizard
 * Fixed: Renamed binary file to VNMConfig.exe
