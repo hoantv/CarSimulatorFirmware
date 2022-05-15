@@ -1,3 +1,11 @@
+15/05/2022 3.2.0.5
+* Fixed: Increased lower graph sampling limit from 1 to 10
+* Fixed: Removed auto graph sampling scaler
+
+28/04/2022 3.2.0.5
+* Fixed: Adjusted serial com window
++ Added: Min force constraint (always < max force - 10)
+
 25/04/2022 3.2.0.4
 * Fixed: Changed update binary filename to VNMConfig.exe
 * Fixed: Duplicated request id acks in Pedal packet handler
