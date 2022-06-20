@@ -1,0 +1,11 @@
+20/06/2022 3.2.0.6
+* Fixed: Bypassed graph sampler when the incoming message rate is lower than 80/s
+* Fixed: Increased default GraphSamplingRate from 30 to 40
+* Fixed: Changed graph sampling constraints from (10, 1000) to (10, 100)
+* Fixed: Hanbrake message rate calculation issue
+
+16/06/2022 3.2.0.6
++ Added: Enable graph animation effect option (Default: True). Untick to disable pedal/handbrake graph effect
+
+25/05/2022 3.2.0.6
+* Fixed: Disabled shifter analog mode checkbox

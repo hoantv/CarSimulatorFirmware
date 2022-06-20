@@ -1,4 +1,4 @@
 #message={Improved graph sampler to avoid UI freezing. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.2.0.5/VNMConfig.exe
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.2.0.6/VNMConfig.exe
 #method=0 (self-upgrade)
-#version=3.2.0.5
+#version=3.2.0.6
