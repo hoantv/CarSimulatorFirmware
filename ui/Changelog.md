@@ -1,3 +1,8 @@
+19/07/2022 3.2.0.8
+* Fixed: Pedal progress bars rendering issue
+* Fixed: Re-enabled msg rate calculation
+* Fixed: Incorrect build date 
+
 20/06/2022 3.2.0.6
 * Fixed: Bypassed graph sampler when the incoming message rate is lower than 80/s
 * Fixed: Increased default GraphSamplingRate from 30 to 40
