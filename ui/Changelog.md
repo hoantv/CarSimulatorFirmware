@@ -1,3 +1,13 @@
+05/08/2022 3.2.1.1
+* Fixed: Some minor issues with logging
+
+04/08/2022 3.2.1.1
++ Added: More logs when capture packets option is set
++ Added: Show pedal axis value on statusbar
++ Added: JSON option to Packets section. Default: True
+* Fixed: The issue with wheelbase where a single packet is handled twice
+* Fixed: Reset pedal charts when new device is connected
+
 19/07/2022 3.2.0.8
 * Fixed: Pedal progress bars rendering issue
 * Fixed: Re-enabled msg rate calculation
