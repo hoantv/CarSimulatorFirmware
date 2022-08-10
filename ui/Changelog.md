@@ -1,4 +1,25 @@
+08/08/2022 3.3.0.1
++ Added: Implemented exactly-once packet handling procedure
+* Fixed: Optimized packet logger
+
+07/08/2022 3.3.0.1
+* Fixed: Memory leaks in counting DFU devices 
+* Fixed: Switched to default memory manager
+* Fixed: Memory leaks in pedal packet handler
++ Added: Put the log window into account when centering main window
+* Fixed: Window>Telemetry not working as expected
+* Fixed: Access violation when clicking on a device from device panel
+* Fixed: Device panel not showing on high DPI screens
++ Added: Users have to wait for 3.5 secs to switch devices to avoid race conditions
+* Fixed: Workaround to suppress the unknown 0xF2 response from wheelbase
+* Fixed: Disable pedal preferences when no axis selected
+* Fixed: Wheelbase firmware version not properly retrieved upon connecting
+
+05/08/2022 3.3.0.1
+* Fixed: Custom delay not taking effect in showhint function
+
 05/08/2022 3.2.1.1
+* Fixed: Pedal preset loading button not disabled when no axis selected
 * Fixed: Some minor issues with logging
 
 04/08/2022 3.2.1.1

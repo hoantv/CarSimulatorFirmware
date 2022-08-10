@@ -1,4 +1,5 @@
 05/08/2022 3.2.1.1
+* Fixed: Pedal preset loading button not disabled when no axis selected
 * Fixed: Some minor issues with logging
 
 04/08/2022 3.2.1.1

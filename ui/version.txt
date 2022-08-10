@@ -1,4 +1,4 @@
-#message={Some minor adjustments. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.2.1.1/VNMConfig.exe
+#message={Memory leaks adressed and optimized packet logger. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.3.0.1/VNMConfig.exe
 #method=0 (self-upgrade)
-#version=3.2.1.1
+#version=3.3.0.1
