@@ -1,3 +1,13 @@
+30/08/2022 3.3.0.2
+* Fixed: Adjusted base tab 
+
+28/08/2022 3.3.0.2
+* Fixed: Improved embedded window display
+* Fixed: Adjusted hardware tab
+
+21/08/2022 3.3.0.2
+* Fixed: Wheelbase profile not loaded on connected
+
 08/08/2022 3.3.0.1
 + Added: Implemented exactly-once packet handling procedure
 * Fixed: Optimized packet logger
