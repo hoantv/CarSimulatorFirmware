@@ -1,4 +1,4 @@
-#message={UI adjustments & base profile loading issue fixed. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.3.0.2/VNMConfig.exe
+#message={Fixed shifter configuration display issue. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.3.0.3/VNMConfig.exe
 #method=0 (self-upgrade)
-#version=3.3.0.2
+#version=3.3.0.3

@@ -1,0 +1,14 @@
+10/10/2022 3.3.0.3
+* Fixed: Shifter AS min-max configuration not loaded on H-S switch
+* Fixed: Shifter H-S mode switching bug introduced in v3.3.0.1 on 08.08.2022
+* Fixed: Changed project's high dpi awareness from Per Monitor v2 to System Aware
+
+03/09/2022 3.3.0.3
+* Fixed: Theme cursor not applied correctly on spin edits
+* Fixed: Axis' values are still changeable when being disabled
+
+02/09/2022 3.3.0.3
+* Fixed: TThreadLog.Execute access violation issue
+
+01/09/2022 3.3.0.3
+* Fixed: Added more icons to groupboxes
