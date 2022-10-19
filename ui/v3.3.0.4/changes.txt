@@ -1,0 +1,8 @@
+16/10/2022 3.3.0.4
+* Fixed: Optimized shifter packet handler
+* Fixed: Moved delay call to avoid blocking UI thread
+* Fixed: Optimized sendqueue feature to ensure synchronous packet transfer
+* Fixed: Using event bus to update statusbar 
+
+15/10/2022 3.3.0.4
++ Added: Handle shifter passive packets

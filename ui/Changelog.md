@@ -1,3 +1,12 @@
+16/10/2022 3.3.0.4
+* Fixed: Optimized shifter packet handler
+* Fixed: Moved delay call to avoid blocking UI thread
+* Fixed: Optimized sendqueue feature to ensure synchronous packet transfer
+* Fixed: Using event bus to update statusbar 
+
+15/10/2022 3.3.0.4
++ Added: Handle shifter passive packets
+
 10/10/2022 3.3.0.3
 * Fixed: Shifter AS min-max configuration not loaded on H-S switch
 * Fixed: Shifter H-S mode switching bug introduced in v3.3.0.1 on 08.08.2022
