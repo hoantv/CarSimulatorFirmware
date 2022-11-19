@@ -1,3 +1,23 @@
+19/11/2022 3.4.0.1
+* Fixed: Random AV when using packet rate limiting
+* Fixed: Attempted to prevent duplicated DFU detection messages
+
+30/10/2022 3.4.0.1
+* Fixed: Re-initialized logger to write runtime error using the main logger instead of the last logger
+
+26/10/2022 3.4.0.1
+* Fixed: Disabled add preset button when no preset selected
+
+24/10/2022 3.4.0.1
++ Added: Log firmware debug packets (debug.log)
++ Added: LogDbgPkts in Packets section. Default: False
+
+23/10/2022 3.4.0.1
++ Added: Save user's presets when applying preset config
+
+19/10/2022 3.4.0.1
+* Fixed: Handled HID data in a separated thread
+
 16/10/2022 3.3.0.4
 * Fixed: Optimized shifter packet handler
 * Fixed: Moved delay call to avoid blocking UI thread

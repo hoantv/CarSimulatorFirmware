@@ -1,4 +1,4 @@
-#message={Optimizations. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.3.0.4/VNMConfig.exe
+#message={Handled HID data in a separated thread. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.4.0.1/VNMConfig.exe
 #method=0 (self-upgrade)
-#version=3.3.0.4
+#version=3.4.0.1
