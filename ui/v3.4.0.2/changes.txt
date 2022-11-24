@@ -1,0 +1,2 @@
+24/11/2022 3.4.0.2
+* Fixed: Pedal tab being freeze in some cases

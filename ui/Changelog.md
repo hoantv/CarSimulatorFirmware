@@ -1,3 +1,6 @@
+24/11/2022 3.4.0.2
+* Fixed: Pedal tab being freeze in some cases
+
 19/11/2022 3.4.0.1
 * Fixed: Random AV when using packet rate limiting
 * Fixed: Attempted to prevent duplicated DFU detection messages

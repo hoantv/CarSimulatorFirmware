@@ -1,4 +1,4 @@
-#message={Handled HID data in a separated thread. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.4.0.1/VNMConfig.exe
+#message={Fixed pedal freezing issue. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.4.0.2/VNMConfig.exe
 #method=0 (self-upgrade)
-#version=3.4.0.1
+#version=3.4.0.2
