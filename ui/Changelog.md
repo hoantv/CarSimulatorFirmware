@@ -1,3 +1,23 @@
+07/12/2022 3.4.0.3
+* Fixed: Wheelbase not properly re-connected after resuming from hibernation
+
+04/12/2022 3.4.0.3
+* Fixed: Config auto reload not fully working 
+
+01/12/2022 3.4.0.3
+* Fixed: Changed all label layout to tlCenter
++ Added: Hotkey spam blocking function with a hardcoded delay of 10s
++ Added: Implemented wheelbase centerize hotkey feature. Default: None and can be changed in Menu>Preferences>Wheelbase
++ Added: CenterizeHotkey config in Base section. Default: Empty
+
+29/11/2022 3.4.0.3
+* Fixed: Attempted to fix random AV when closing application
+* Fixed: Pedal/Handbrake config not reloaded when switching between tabs
+
+27/11/2022 3.4.0.3
+* Fixed: Issue when reading wheelbase config while telemetry feature is enabled
+* Fixed: Optimized progressbar updates to avoid UI freeze 
+
 24/11/2022 3.4.0.2
 * Fixed: Pedal tab being freeze in some cases
 

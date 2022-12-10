@@ -1,4 +1,4 @@
-#message={Fixed pedal freezing issue. See changes.txt for more}
-#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.4.0.2/VNMConfig.exe
+#message={Fixed pedal freezing issue & random AV. Added Centerize hotkey feature. See changes.txt for more}
+#url1=https://raw.githubusercontent.com/hoantv/CarSimulatorFirmware/master/ui/v3.4.0.3/VNMConfig.exe
 #method=0 (self-upgrade)
-#version=3.4.0.2
+#version=3.4.0.3
